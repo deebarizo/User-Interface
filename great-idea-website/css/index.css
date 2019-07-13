@@ -154,6 +154,7 @@ h5 {
 div.container {
   width: 876px;
   margin: 0 auto;
+  font-size: 0px;
 }
 
 header {
@@ -182,23 +183,19 @@ nav ul li:last-child {
   margin-right: 0;
 }
 
-nav img {
+nav div.img {
   display: inline-block;
-}
-
-section.hero {
-  width: 1025px;
-  margin: 0 auto;
+  width: 192px;
+  margin-left: 80px;
 }
 
 div.hero {
-  margin: 0 105px;
+  display: inline-block;
 }
 
 div.hero-headline {
   display: inline-block;
-  width: 405px;
-  margin: 0 auto;
+  width: 50%;
 }
 
 div.hero-headline h2 {
@@ -212,45 +209,71 @@ div.hero-headline-button {
   padding: 8px 10px;
   text-align: center;
   font-size: 16px;
-  margin: 0 115px;
+  margin: 0 auto;
 }
 
 div.hero-image {
   display: inline-block;
-  width: 405px;
+  width: 50%;
 }
 
 div.hero-image img {
-  margin: 0 60px;
+  margin-left: 48px;
 }
 
 section {
-  width: 1025px;
+  width: 100%;
   margin: 0 auto;
 }
 
-div.features-about {
-  margin: 55px 115px;
-  border-top: 2px solid black;
+section div {
+  font-size: 16px;
+  line-height: 1.2;
 }
 
-div.features {
-  display: inline-block;
-  width: 395px;
-  margin-top: 50px;
+section.first-content {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border-top: 1px solid black;
+  padding-top: 40px;
 }
 
-div.about {
+section.first-content div {
   display: inline-block;
-  width: 395px;
-  margin-top: 50px;
+  width: 50%;
+  padding: 0 10px;
 }
 
 div.middle-img {
-  width: 1025px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+section.second-content div {
+  display: inline-block;
+  width: 33.33%;
+  padding: 0 10px;
+}
+
+footer {
+  width: 100%;
   margin: 0 auto;
 }
 
-img.middle-img {
-  margin: 0 115px;
+div.contact {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-top: 1px solid black;
+  padding-top: 40px;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+div.contact p {
+  margin: 15px 0;
+}
+
+div.contact div.copyright {
+  margin-top: 30px;
+  text-align: center;
 }
